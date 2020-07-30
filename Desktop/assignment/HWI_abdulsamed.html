@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+   <style>
+
+       .container{
+        margin-top: 50px;
+           background-color:#3F7FBF;
+           padding: 20px;
+           width: 500px;
+       }
+       label{
+           font-weight: bold;
+       }
+       .form-group{
+           margin-bottom: 15px;
+       }
+       .form-control{
+           width: 480px;
+           height: 20px;
+           border-radius: 2px;
+           border: 0px;
+       }
+
+       .textarea-control{
+        width: 480px;
+       }
+
+       .btn-success{
+           background-color: green;
+           color: ivory;
+           padding: 5px;
+           border: 0px;
+       }
+
+       .img{
+           width: 20px;
+       }
+
+       .bag{
+        display: flex;
+        justify-content: center;
+       }
+
+       .navbar{
+           display: flex;
+           justify-content: space-between;
+         width: 100%;
+         padding: 4px;
+         height: 20px;
+         background: #000000;
+         color:snow;
+       }
+
+       .links{
+        display: flex;
+           justify-content: space-between;
+       }
+
+       body{
+           padding: 0px;
+           margin: 0px;
+       }
+   </style>
+
+</head>
+<bod>
+
+  <nav class="navbar">
+      <div>
+        <img class="img" src="Ellipse 1.png" alt="">
+      </div>
+
+      <div class="links">
+          <li>Home</li>
+          <li>About</li>
+
+          <li>Contact</li>
+      </div>
+  </nav>
+
+    <div class="bag">
+        <div class="container">
+            <form action="">
+                <div class="form-group">
+                    <label for="">First Name</label><br>
+                    <input type="text" name="fname" class="form-control" placeholder="Your first name">
+                </div>
+        
+                <div class="form-group">
+                    <label for="">Last Name</label><br>
+                    <input type="text" name="lname" class="form-control" placeholder="Your last name">
+                </div>
+                
+        
+                <div class="form-group">
+                <label for="">Subject</label> 
+                    <label for="">Your Country</label> <br>
+                    <select name="" id="" class="form-control">
+                        <option value="">Australia</option>
+                        <option value="">Ghana</option>
+                        <option value="">Togo</option>
+                        <option value="">Nigeria</option>
+                    </select>
+                </div>
+        
+               <div class="form-group">
+                <label for="">Subject</label> <br>
+                <textarea name="subject" class="textarea-control" id="" cols="30" rows="10" placeholder="The Subject"></textarea>
+               </div>
+        
+                <div class="form-group">
+                    <button class="btn-success">Submit</button>
+                </div>
+        
+            </form>
+        </div>
+    </div>
+    
+
+</body>
+</html>
